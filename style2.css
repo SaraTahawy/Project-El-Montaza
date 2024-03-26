@@ -1,0 +1,87 @@
+.start{
+    display: inline-block;
+    background-color: rgb(109, 157, 230);
+ 
+}
+.img1{
+    float: inline-end;
+    margin-top: 5px;
+    margin-right: 60px;
+ 
+}
+.search{
+    margin-top: 5px;
+    margin-left: 73%;
+    display: inline-block;
+}
+h1{
+    background-color:rgb(158, 231, 231) ;
+    color: rgb(15, 91, 101) ;
+    text-align: center;
+    font-style:oblique;
+    margin: 0%;
+   
+}
+h2{
+    background-color: antiquewhite;
+    display: inline-block;
+ 
+}
+h3{
+    background-color: rgb(224, 208, 249);
+    display: inline-block;
+}
+ul {
+    font-size: large;
+    background-color: rgb(207, 244, 244);
+     
+}
+ol{
+    font-size: large;
+ 
+}
+caption{
+    font-size: x-large;
+    font-weight: bolder;
+    color: brown;
+    font-style: italic;
+}
+table{
+    background-color: rgb(247, 222, 207);
+    
+}
+ 
+.part4 , .ol4{
+    background-color: antiquewhite;
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+}
+ ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+ 
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ 
+ul li.active a{
+background-color:#fff;
+    color: #000;
+ 
+}
+ 
+ 
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.table2{
+    size: 100%;
+}

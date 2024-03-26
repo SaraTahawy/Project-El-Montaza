@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+<title>Sign up</title>
+<link rel ="stylesheet" type="text/css"  href="style3.css">
+<script src ="sign_up_js.js" > </script> 
+
+<!-- for all languages -->
+<meta charset="utf-8">
+
+
+
+<body>
+<form   action="sign_upConnection.php"  method="POST"   id="sign_up_Form" onsubmit="return sign_up_Validation()" >
+<h2>Sign up</h2>
+<!-- for creat box around all -->
+<fieldset>
+<!-- name of box -->
+
+
+<div>
+<label for="name">Name</label>
+<input id = "name"   type="text" name="name"  required>
+</div>
+
+
+<div>
+<label for="email">Email</label>
+<input id = "email"   type="Email"   name="email"  required>
+</div>
+
+<div>
+<label for="password">Password</label>
+<input id = "password"   type="Password"  name="password"  required>
+</div>
+
+<div>
+<label for="confirm_password">Confirm_Password</label>
+<input id = "confirm_password"   type="Password" name="confirm_password"  required>
+</div>
+
+<p id = "sign_up_Error" style="color: red" ></p>
+
+<input type ="submit" value="Register" >
+
+
+<p>Have an account?
+<a href="login.html">login</a>
+</p>
+
+
+</fieldset>
+</form>
+</body>
+</head>
+</html>
